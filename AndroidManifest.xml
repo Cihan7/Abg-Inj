@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" android:versionCode="4" android:versionName="4.3" package="com.google.pubgqlg" platformBuildVersionCode="4" platformBuildVersionName="4.3">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="26" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<uses-permission android:name="android.permission.UNKNOWN" />
+	<application android:icon="@drawable/icon" android:label="Q.L.G S16 INJECTOR" android:largeHeap="true" android:name="com.androlua.LuaApplication" android:persistent="true" android:resizeableActivity="true" android:supportsPictureInPicture="true">
+		<meta-data android:name="android.max_aspect" android:value="4" />
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Q.L.G S16 INJECTOR" android:launchMode="singleTask" android:name="com.androlua.Main" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<action android:name="android.intent.action.EDIT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="file" />
+				<data android:host="*" />
+				<data android:pathPattern="" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<action android:name="android.intent.action.EDIT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="content" />
+				<data android:host="*" />
+				<data android:pathPattern="" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<action android:name="android.intent.action.EDIT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="file" />
+				<data android:mimeType="application/*" />
+				<data android:mimeType="audio/*" />
+				<data android:mimeType="video/*" />
+				<data android:mimeType="text/*" />
+				<data android:mimeType="*/*" />
+				<data android:host="*" />
+				<data android:pathPattern="" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<action android:name="android.intent.action.EDIT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="content" />
+				<data android:host="*" />
+				<data android:mimeType="application/*" />
+				<data android:mimeType="audio/*" />
+				<data android:mimeType="video/*" />
+				<data android:mimeType="text/*" />
+				<data android:mimeType="*/*" />
+				<data android:pathPattern="" />
+			</intent-filter>
+		</activity>
+		<activity android:configChanges="keyboardHidden|orientation" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+		<activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="tencent222222" />
+			</intent-filter>
+		</activity>
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Q.L.G S16 INJECTOR" android:name="com.androlua.LuaActivity" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="Q.L.G S16 INJECTOR" />
+				<data android:host="com.google.pubgqlg" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<action android:name="android.intent.action.EDIT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="file" />
+				<data android:host="*" />
+				<data android:pathPattern="" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<action android:name="android.intent.action.EDIT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="content" />
+				<data android:host="*" />
+				<data android:pathPattern="" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="file" />
+				<data android:mimeType="text/*" />
+				<data android:host="*" />
+				<data android:pathPattern="" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="content" />
+				<data android:mimeType="text/*" />
+				<data android:host="*" />
+				<data android:pathPattern="" />
+			</intent-filter>
+		</activity>
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:documentLaunchMode="intoExisting" android:excludeFromRecents="false" android:label="Q.L.G S16 INJECTOR" android:name="com.androlua.LuaActivityX" android:screenOrientation="portrait" android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+		<activity android:label="Q.L.G S16 INJECTOR" android:name="com.androlua.Welcome" android:screenOrientation="portrait" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.nirenr.screencapture.ScreenCaptureActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+		<service android:enabled="true" android:name="com.androlua.LuaService" />
+		<service android:enabled="true" android:exported="true" android:label="Q.L.G S16 INJECTOR" android:name="com.androlua.LuaAccessibilityService" android:permission="android.permission.UNKNOWN">
+			<meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_service_config" />
+			<intent-filter>
+				<action android:name="android.accessibilityservice.AccessibilityService" />
+				<category android:name="android.accessibilityservice.category.FEEDBACK_AUDIBLE" />
+				<category android:name="android.accessibilityservice.category.FEEDBACK_HAPTIC" />
+				<category android:name="android.accessibilityservice.category.FEEDBACK_SPOKEN" />
+			</intent-filter>
+		</service>
+		<provider android:authorities="com.google.pubgqlg" android:exported="false" android:grantUriPermissions="true" android:name="android.content.FileProvider">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/andlua_filepaths" />
+		</provider>
+	</application>
+</manifest>
